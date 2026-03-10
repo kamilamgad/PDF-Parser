@@ -1,0 +1,7 @@
+interface:
+  display_name: "PDF Notes"
+  short_description: "Create customer notes from Home/Auto PDFs"
+  default_prompt: "Use $pdf-notes to make notes for a customer by reading matching PDFs from Downloads and formatting them like the existing notes examples."
+
+policy:
+  allow_implicit_invocation: true
