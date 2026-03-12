@@ -9,11 +9,12 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import os
 import re
 from pathlib import Path
 
 
-DOWNLOADS = Path(r"C:\Users\moham\Downloads")
+DOWNLOADS = Path(os.environ.get("USERPROFILE", str(Path.home()))) / "Downloads"
 SUFFIXES = ("Auto", "Home")
 
 
