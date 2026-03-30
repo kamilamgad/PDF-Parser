@@ -3,7 +3,7 @@
 Locate candidate customer PDFs in Downloads.
 
 Usage:
-    python find_matching_pdfs.py "Laura Follo"
+    python find_matching_pdfs.py "Jordan Parker"
 """
 
 from __future__ import annotations

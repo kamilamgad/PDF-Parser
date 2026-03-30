@@ -3,7 +3,7 @@
 Generate customer notes from matching Home and Auto PDFs plus NotesTemplate.txt.
 
 Usage:
-    python generate_notes.py "Katherine Holland"
+    python generate_notes.py "Jordan Parker"
 """
 
 from __future__ import annotations

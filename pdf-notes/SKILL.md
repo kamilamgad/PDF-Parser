@@ -16,7 +16,7 @@ The default output is written directly into `Downloads`. Home/Auto cases use the
 1. Interpret the user request `make notes for {customer}` as a request to find that customer's PDFs in `Downloads`, extract relevant policy and customer details, and write a notes text file using `NotesTemplate.txt`.
 2. Search `%USERPROFILE%\Downloads` for matching PDFs.
    - Expected files are named with no separator between first and last name, plus `Home`, `Auto`, or `Condo`, with an optional trailing number for multiple policies.
-   - Examples: `LauraFolloHome.pdf`, `LauraFolloAuto.pdf`, `GetachewMollaAuto2.pdf`, `SwatiSinghCondo2.pdf`
+   - Examples: `JordanParkerHome.pdf`, `JordanParkerAuto.pdf`, `TaylorBrooksAuto2.pdf`, `AveryColeCondo2.pdf`
    - Prefer exact normalized matches first, then looser matches if needed.
 3. For Home/Auto notes, generate the compact summary format:
    - Customer names first, then blank personal fields, then email and mailing address.

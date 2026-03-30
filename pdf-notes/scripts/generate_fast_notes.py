@@ -3,7 +3,7 @@
 Generate compact Home/Auto customer notes directly into Downloads.
 
 Usage:
-    python generate_fast_notes.py "Nataliia Costlow"
+    python generate_fast_notes.py "Jordan Parker"
 """
 
 from __future__ import annotations

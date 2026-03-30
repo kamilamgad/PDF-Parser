@@ -66,8 +66,8 @@ The matching logic expects PDFs in `Downloads` with names like:
 
 - `LauraFolloHome.pdf`
 - `LauraFolloAuto.pdf`
-- `GetachewMollaAuto2.pdf`
-- `SwatiSinghCondo2.pdf`
+- `JordanParkerAuto2.pdf`
+- `TaylorBrooksCondo2.pdf`
 - `JaneDoeRenters.pdf`
 
 ## Usage
@@ -75,19 +75,19 @@ The matching logic expects PDFs in `Downloads` with names like:
 Find matching PDFs:
 
 ```bash
-python pdf-notes/scripts/find_matching_pdfs.py "Laura Follo"
+python pdf-notes/scripts/find_matching_pdfs.py "Jordan Parker"
 ```
 
 Generate compact notes:
 
 ```bash
-python pdf-notes/scripts/generate_fast_notes.py "Laura Follo"
+python pdf-notes/scripts/generate_fast_notes.py "Jordan Parker"
 ```
 
 Generate notes with the older template-based flow:
 
 ```bash
-python pdf-notes/scripts/generate_notes.py "Laura Follo"
+python pdf-notes/scripts/generate_notes.py "Jordan Parker"
 ```
 
 By default, output note files are written to the user's `Downloads` folder.
