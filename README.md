@@ -110,6 +110,11 @@ demo/output/JordanParkerNotes.txt
 
 The demo uses fake customer fixtures and is intended to make the project easier to review for hiring or portfolio purposes.
 
+Example assets included in the repo:
+
+- `demo/examples/CustomerNotesExample.txt`
+- `demo/examples/notes-example.png`
+
 ## Example Workflow
 
 1. Save one or more policy PDFs to `Downloads`

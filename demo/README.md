@@ -7,6 +7,8 @@ This folder provides a safe demo flow for `PDFReader` without any real customer 
 - `inputs/JordanParkerHome.txt`
 - `inputs/JordanParkerAuto.txt`
 - `run_demo.py`
+- `examples/CustomerNotesExample.txt`
+- `examples/notes-example.png`
 
 The input files are fake text fixtures that mimic extracted policy content closely enough to demonstrate the notes-generation workflow.
 

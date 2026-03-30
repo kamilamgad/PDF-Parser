@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDFReader Example Notes</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #eef4f2;
+      --panel: #ffffff;
+      --ink: #162126;
+      --muted: #5d6c72;
+      --border: #d6e0dd;
+      --accent: #0c7b74;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(12,123,116,.16), transparent 28%),
+        linear-gradient(180deg, #f7faf9 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .badge {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(12,123,116,.1);
+      color: var(--accent);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .sheet {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 18px 40px rgba(14,28,31,.08);
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font: 14px/1.5 Consolas, "Courier New", monospace;
+      color: #1b2730;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Example Generated Notes</h1>
+        <p>Sanitized sample output from PDFReader showing the plain-text notes format used for review and CRM entry.</p>
+      </div>
+      <div class="badge">Sanitized Demo</div>
+    </section>
+    <section class="sheet">
+      <pre>Jordan Parker
+Date of birth: 08/14/1985
+Social security number: 417228364
+Drivers license #: P84726195
+Virginia
+
+Taylor Morgan Parker
+Date of birth: 02/19/1988
+Social security number: 538114207
+Drivers license #: R52844013 (VA)
+
+Phone number: (804) 555-0182, (804) 555-0114
+e-mail Address(es): jordan.parker@example.com
+Mailing Address: 1842 Willow Crest Dr Richmond, VA 23233-4412
+
+Home Policy
+Property Insured: 1842 Willow Crest Dr Richmond, VA 23233-4412
+Policy Number: 84152-63-47
+Effective: 5/30/2025
+Expiration: 5/30/2026
+Year Built: 1978
+Age of Roof:
+Square Footage: 2,500
+Style or Number of Stories: 1 Story
+Dwelling Quality Grade:
+Foundation Type: Concrete Slab
+Foundation Shape: 6-7 Corners - L Shape
+Roof Material: Asphlt/Fbrgls or Dimnsl Asphlt
+Garage Type: 1 Car Attached/Built-In
+Interior Wall Construction: Drywall
+Basement: No
+Roof Type: Roof Type Number of Units
+Roof Surface Material Type:
+Construction Type: Roof Type Number of Units
+
+Deductible: $1,000 all perils
+Declining Deductible Balance:
+Current Coverage A (Dwelling) Amount: $480,000
+Coverage A (Dwelling) Amount offered for this renewal: $510,000
+
+Coverage A - Dwelling: $510,000
+Extended Replacement Cost: 25%
+Coverage B - Separate Structures:
+Coverage C - Personal Property: $382,500
+Coverage D - Loss of Use: $255,000
+Coverage E - Personal Liability: $300,000
+Coverage F - Medical Payments to Others: $1,000
+Association Loss Assessment: $1,500
+Building Ordinance or Law: 10%
+Sewer &amp; Drain Damage - Extended Contents:
+Limited Matching Coverage for Siding and Roof Materials:
+Contents Replacement Coverage: Covered
+Personal Injury: Covered
+
+Discounts: Auto/Home, Non Smoker, ePolicy
+
+Mortgagee: Example National Bank ISAOA PO Box 100515 Florence, SC 29502-0515
+Loan Number: 8841027735
+
+Renewal Premium: $2,900.78
+Prior Term Premium:
+
+Auto Policy
+Policy Number: 31864-25-91
+Effective: 4/10/2026
+Expiration: 10/10/2026
+Policy Premium: $5123.90
+Named Insured(s): Jordan Parker
+
+Household Drivers: Taylor M Parker 02/19/1988, 538114207
+Jordan Parker 08/14/1985, P84726195
+Avery Parker (daughter), 11/03/2004, V40192837 (VA)
+Riley Parker (daughter), 07/22/2007, W51106482
+
+Vehicle 1: 2015 Chevrolet Truck Slvrdo 1500 E C 4X4 Lt
+VIN: 1HGBH41JXMN109186
+Comprehensive Deductible: $500
+Collision Deductible: $500
+glass buyback
+towing
+
+Vehicle 2: 2019 Nissan Rogue 4D 4Wd S/Sv/Sl
+VIN: 2FTRX18W1XCA01234
+Comprehensive Deductible: $500
+Collision Deductible: $500
+glass buyback
+
+Vehicle 3: 2021 Chevrolet Truck Trailblazer 4D 2Wd Lt
+VIN: 3GNAXUEV5KL221908
+Comprehensive Deductible: $500
+Collision Deductible: $500
+glass buyback
+
+Vehicle 4: 2005 Mazda Tribute 4d 2wd I
+VIN: JM1BK32F981812345
+Liability only
+towing
+
+Auto Liability / Core Coverages
+Bodily Injury Liability: $50,000 each person / $100,000 each accident
+Property Damage Liability: $50,000 each accident
+Personal Injury Protection:
+Uninsured Motorist: $50,000 each person / $100,000 each accident
+
+Uninsured Motorist Property Damage: $50,000 each accident
+
+Auto Discounts: Auto/Home, Multiple Car, EFT, ePolicy, New Business</pre>
+    </section>
+  </main>
+</body>
+</html>
