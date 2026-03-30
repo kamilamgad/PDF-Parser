@@ -7,6 +7,7 @@ It was built to reduce repetitive manual review work by:
 - finding the right customer PDFs automatically
 - extracting policy details from Home, Auto, Condo, and Renters documents
 - generating consistent notes that are ready to reuse in downstream workflows
+- preserving customer policy data in a structured text format for CRM intake and recordkeeping
 
 This is not a generic PDF viewer. It is a specialized document-processing utility for operations-heavy insurance work.
 
@@ -26,6 +27,7 @@ Reviewing policy packets by hand is repetitive and slow. This project turns that
 - standardize note output
 - speed up policy review
 - cut down on missed details in long PDFs
+- keep important customer data available in a reusable note file instead of trapped inside PDFs
 
 ## Repo Layout
 
@@ -96,10 +98,16 @@ By default, output note files are written to the user's `Downloads` folder.
 2. Run the matcher or generator with the customer name
 3. Review the generated `.txt` output
 4. Use the note file as a structured summary instead of re-reading the full packet
+5. Save or paste the generated text into a customer profile in a CRM workflow
 
 ## Output
 
-The generated note files are plain text and are meant to be easy to copy into an existing workflow. Depending on the source PDFs, output may include:
+The generated note files are plain text and are meant to be easy to copy into an existing workflow. In practice, the output serves two purposes:
+
+- summarize policy packets for quick review
+- retain important customer and policy data in a format that can be saved into a CRM profile created during intake or servicing
+
+Depending on the source PDFs, output may include:
 
 - insured names
 - email and mailing address
